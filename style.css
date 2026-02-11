@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: red;
+}
+
+.start-screen{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-box{
+    border-bottom-style: solid;
+    border-color: red;
+    text-align: center;
+}
+
+.title{
+    font-size: 50px;    
+}
+
+main{
+    height: 100%;
+    margin-top: 50px;
+}
+
+li{
+    padding: 30px;
+    text-align: center;
+}
+
+a, p{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+
+a:hover{
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+.loading{
+    margin-left: 50px;
+}
+
+footer{
+    border-top-style: solid;
+    border-color: red;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
